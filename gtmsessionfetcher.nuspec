@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Naxam.GTMSessionFetcher.iOS</id>
+        <version>1.1.11</version>
+        <description>Xamarin Binding Library - GTMSessionFetcher</description>
+        <authors>NAXAM</authors>
+        <owners>NAXAM CO.,LTD</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>Naxam - GTMSessionFetcher for tvOS</title>
+        <releaseNotes>GTMSessionFetcher v1.1.11 for tvOS</releaseNotes>
+        <summary>Xamarin Binding Library - GTMSessionFetcher</summary>
+        <iconUrl>https://avatars1.githubusercontent.com/u/25535951</iconUrl>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/NAXAM/gtmappauth-ios-binding</projectUrl>
+        <copyright>Copyright (c) 2017 NAXAM</copyright>
+        <tags>Xamarin.iOS, GTMSessionFetcher</tags>
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+        <!-- <file src="Naxam.GTMSessionFetcher.iOS/bin/Release/Naxam.GTMSessionFetcher.iOS.dll" target="lib/Xamarin.iOS10/Naxam.GTMSessionFetcher.iOS.dll" />-->
+        <file src="Naxam.GTMSessionFetcher.tvOS/bin/Release/Naxam.GTMSessionFetcher.tvOS.dll" target="lib/Xamarin.tvOS/Naxam.GTMSessionFetcher.tvOS.dll" />
+    </files>
+</package>

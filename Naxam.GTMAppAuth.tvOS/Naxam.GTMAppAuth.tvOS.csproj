@@ -55,6 +55,8 @@
     <NativeReference Include="..\frameworks\GTMAppAuth\libGTMAppAuth.a">
       <Kind>Static</Kind>
       <SmartLink>False</SmartLink>
+      <IsCxx>True</IsCxx>
+      <LinkerFlags>-ObjC</LinkerFlags>
     </NativeReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\TVOS\Xamarin.TVOS.ObjCBinding.CSharp.targets" />

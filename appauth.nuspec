@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Naxam.AppAuth.iOS</id>
+        <version>0.9.1</version>
+        <description>Xamarin Binding Library - AppAuth</description>
+        <authors>NAXAM</authors>
+        <owners>NAXAM CO.,LTD</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>Naxam - AppAuth for tvOS</title>
+        <releaseNotes>AppAuth v0.9.1 for tvOS</releaseNotes>
+        <summary>Xamarin Binding Library - AppAuth</summary>
+        <iconUrl>https://avatars1.githubusercontent.com/u/25535951</iconUrl>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/NAXAM/gtmappauth-ios-binding</projectUrl>
+        <copyright>Copyright (c) 2017 NAXAM</copyright>
+        <tags>Xamarin.iOS, appauth</tags>
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+        <!-- <file src="Naxam.AppAuth.iOS/bin/Release/Naxam.AppAuth.iOS.dll" target="lib/Xamarin.iOS10/Naxam.AppAuth.iOS.dll" />-->
+        <file src="Naxam.AppAuth.tvOS/bin/Release/Naxam.AppAuth.tvOS.dll" target="lib/Xamarin.tvOS/Naxam.AppAuth.tvOS.dll" />
+    </files>
+</package>

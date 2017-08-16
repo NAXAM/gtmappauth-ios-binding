@@ -45,6 +45,8 @@
     <NativeReference Include="..\frameworks\AppAuth\libAppAuth.a">
       <Kind>Static</Kind>
       <SmartLink>False</SmartLink>
+      <IsCxx>True</IsCxx>
+      <LinkerFlags>-ObjC</LinkerFlags>
     </NativeReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\TVOS\Xamarin.TVOS.ObjCBinding.CSharp.targets" />
